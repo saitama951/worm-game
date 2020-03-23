@@ -1,0 +1,44 @@
+print("hello world!")
+
+print(42)
+
+a=10
+print(2*a)
+
+b=3.14
+c="apple"
+
+print(b)
+print(c)
+
+print(3<4)
+print(3>4)
+print(not(3<4 and 3>4))
+
+for i in range(0,10):	
+	print(i)
+
+for i in range(0,10,2):
+	print(i)
+
+arr= []
+
+for i in  range(0,10):
+	arr.append(i)
+
+print(arr)
+
+arr[5]= 50
+
+print(arr)
+
+for el in arr:
+	print(-el)
+
+
+
+
+def square(x):
+	return x*x
+
+print(square(2))
